@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'UILocalizable_Example' do
+  pod 'UILocalizable', :path => '../'
+
+  target 'UILocalizable_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

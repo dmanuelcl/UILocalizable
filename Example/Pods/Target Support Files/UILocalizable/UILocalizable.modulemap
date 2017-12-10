@@ -1,0 +1,6 @@
+framework module UILocalizable {
+  umbrella header "UILocalizable-umbrella.h"
+
+  export *
+  module * { export * }
+}

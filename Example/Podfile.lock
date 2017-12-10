@@ -1,0 +1,16 @@
+PODS:
+  - UILocalizable (0.1.0)
+
+DEPENDENCIES:
+  - UILocalizable (from `../`)
+
+EXTERNAL SOURCES:
+  UILocalizable:
+    :path: ../
+
+SPEC CHECKSUMS:
+  UILocalizable: e324e965e59e27011b241bef08a2d4704a53e32e
+
+PODFILE CHECKSUM: 7bcde986be84c8f1b2649dd63b1cb65cbdde1134
+
+COCOAPODS: 1.3.1
