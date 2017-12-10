@@ -1,8 +1,8 @@
 {
   "name": "UILocalizable",
   "version": "0.1.0",
-  "summary": "A simple way to localize your app",
-  "description": "A simple way to localize your app. Allow localize UI on storyboard and source code",
+  "summary": "A simple way to localize iOS apps",
+  "description": "A simple way to localize iOS apps. Allow localize UI on storyboard and source code",
   "homepage": "https://github.com/dmanuelcl/UILocalizable",
   "license": {
     "type": "MIT",
@@ -16,7 +16,7 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "8.0"
   },
   "source_files": "UILocalizable/Classes/**/*"
 }

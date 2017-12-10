@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  UILocalizable: e324e965e59e27011b241bef08a2d4704a53e32e
+  UILocalizable: 17d56bb9a5de939ba895b0cecc80b509e61996a7
 
 PODFILE CHECKSUM: 7bcde986be84c8f1b2649dd63b1cb65cbdde1134
 
