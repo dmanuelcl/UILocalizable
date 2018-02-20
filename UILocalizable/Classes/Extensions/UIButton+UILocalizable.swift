@@ -27,7 +27,7 @@ public extension UIButton{
         set(value){
             associateObject(base: self, key: &associatedKeys.localizedTitle, value: value)
             guard let value = value else {return}
-            let title = value.localizedUI
+            let title = value.localized
             self.setTitle(title, for: UIControlState.normal)
         }
     }
@@ -42,7 +42,7 @@ public extension UIButton{
         set(value){
             associateObject(base: self, key: &associatedKeys.localizedHighlightedTitle, value: value)
             guard let value = value else {return}
-            let title = value.localizedUI
+            let title = value.localized
             self.setTitle(title, for: .highlighted)
         }
     }
@@ -57,7 +57,7 @@ public extension UIButton{
         set(value){
             associateObject(base: self, key: &associatedKeys.localizedSelectedTitle, value: value)
             guard let value = value else {return}
-            let title = value.localizedUI
+            let title = value.localized
             self.setTitle(title, for: .selected)
         }
     }
@@ -72,7 +72,7 @@ public extension UIButton{
         set(value){
             associateObject(base: self, key: &associatedKeys.localizedDisabledTitle, value: value)
             guard let value = value else {return}
-            let title = value.localizedUI
+            let title = value.localized
             self.setTitle(title, for: .disabled)
         }
     }

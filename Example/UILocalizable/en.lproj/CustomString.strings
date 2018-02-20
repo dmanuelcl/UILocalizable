@@ -7,4 +7,5 @@
 */
 
 "label_key" = "Label in English";
-"label_partial_key" = "Label partial localized";
+"label_only_in_english_table_key" = "Label only in English Table";
+"label_force_language_key" = "Label always in English";

@@ -29,7 +29,7 @@ public extension UISegmentedControl{
                 guard i < self.numberOfSegments else{
                     return
                 }
-                let title = titles[i].localizedUI
+                let title = titles[i].localized
                 self.setTitle(title, forSegmentAt: i)
             }
         }

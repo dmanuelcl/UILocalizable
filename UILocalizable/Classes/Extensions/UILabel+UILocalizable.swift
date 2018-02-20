@@ -23,7 +23,7 @@ public extension UILabel{
         set(value){
             associateObject(base: self, key: &associatedKeys.localizedText, value: value)
             guard let value = value else {return}
-            let text = value.localizedUI
+            let text = value.localized
             self.text = text
         }
     }

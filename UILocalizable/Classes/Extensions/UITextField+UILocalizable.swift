@@ -25,7 +25,7 @@ public extension UITextField{
         set(value){
             associateObject(base: self, key: &associatedKeys.localizedText, value: value)
             guard let value = value else {return}
-            let text = value.localizedUI
+            let text = value.localized
             self.text = text
         }
     }
@@ -40,7 +40,7 @@ public extension UITextField{
         set(value){
             associateObject(base: self, key: &associatedKeys.localizedPlaceholder, value: value)
             guard let value = value else {return}
-            let placeholder = value.localizedUI
+            let placeholder = value.localized
             self.placeholder = placeholder
         }
     }

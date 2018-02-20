@@ -23,7 +23,7 @@ public extension UIBarItem{
         set(value){
             associateObject(base: self, key: &associatedKeys.localizedTitle, value: value)
             guard let value = value else {return}
-            self.title = value.localizedUI
+            self.title = value.localized
         }
     }
     

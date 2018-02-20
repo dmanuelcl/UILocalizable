@@ -7,5 +7,4 @@
 */
 
 "label_key" = "Etiqueta en Español";
-
-"label_alway_spanish_key" = "Etiqueta siempre en Español";
+"label_force_language_key" = "Etiqueta siempre en Español";

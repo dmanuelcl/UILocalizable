@@ -23,7 +23,7 @@ public extension UINavigationItem{
         set(value){
             associateObject(base: self, key: &associatedKeys.localizedTitle, value: value)
             guard let value = value else {return}
-            let title = value.localizedUI
+            let title = value.localized
             self.title = title
         }
     }

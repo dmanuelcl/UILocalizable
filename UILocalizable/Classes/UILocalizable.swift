@@ -44,7 +44,7 @@ func localizationInfo(fromString string: String) -> (bundle: Bundle, tableName: 
 
 public extension String {
 
-    var localizedUI: String{
+    public var localized: String{
         let (bundle, tableName, key, baseLanguage) = localizationInfo(fromString: self)
         let localizedText = key.localized(bundle: bundle, tableName: tableName, baseLanguage: baseLanguage, comments: self)
         return localizedText
