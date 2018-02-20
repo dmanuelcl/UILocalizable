@@ -8,3 +8,4 @@
 
 "label_key" = "Etiqueta en Español";
 "label_force_language_key" = "Etiqueta siempre en Español";
+"view_controller_title_key" = "Titulo del \"View Controller\"";

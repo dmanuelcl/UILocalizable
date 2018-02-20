@@ -28,7 +28,7 @@ public extension UIButton{
             associateObject(base: self, key: &associatedKeys.localizedTitle, value: value)
             guard let value = value else {return}
             let title = value.localized
-            self.setTitle(title, for: UIControlState.normal)
+            self.setTitle(title, for: .normal)
         }
     }
 
