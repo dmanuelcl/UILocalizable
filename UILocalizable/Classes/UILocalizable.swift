@@ -68,7 +68,14 @@ public protocol UILocalizable {
 }
 
 extension UILocalizable where Self: RawRepresentable, Self.RawValue == String{
+
     public var localized: String {
         return rawValue.localized(tableName: Self.tableName)
+    }
+}
+
+extension UILocalizable{
+    public static var tableName: String {
+        return String(describing: Self.self)
     }
 }

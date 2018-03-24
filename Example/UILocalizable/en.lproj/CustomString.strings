@@ -10,3 +10,4 @@
 "label_only_in_english_table_key" = "Label only in English Table";
 "label_force_language_key" = "Label always in English";
 "view_controller_title_key" = "View Controller Title";
+"label_from_code_key" = "Label from code";

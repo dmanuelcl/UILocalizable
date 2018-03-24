@@ -48,13 +48,21 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value=":CustomString:label_force_language_key:es"/>
                                 </userDefinedRuntimeAttributes>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="from code" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KeJ-PC-9nf">
+                                <rect key="frame" x="148" y="469" width="79" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="TLj-up-Two" firstAttribute="top" secondItem="48Z-Jx-oC0" secondAttribute="bottom" constant="28" id="2YX-cH-Lwj"/>
                             <constraint firstItem="QJn-Gr-24K" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="Jwc-8R-fkv"/>
                             <constraint firstItem="QJn-Gr-24K" firstAttribute="top" secondItem="TLj-up-Two" secondAttribute="bottom" constant="29" id="UBf-eG-m6e"/>
+                            <constraint firstItem="KeJ-PC-9nf" firstAttribute="top" secondItem="QJn-Gr-24K" secondAttribute="bottom" constant="26" id="Uxr-yT-f7N"/>
                             <constraint firstItem="TLj-up-Two" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="deN-EZ-LQh"/>
+                            <constraint firstItem="KeJ-PC-9nf" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="mb3-Ga-PIb"/>
                             <constraint firstItem="48Z-Jx-oC0" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="nch-s2-gTB"/>
                             <constraint firstItem="48Z-Jx-oC0" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="qtg-9M-BQa"/>
                         </constraints>
@@ -63,6 +71,9 @@
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="localizedTitle" value=":CustomString:view_controller_title_key"/>
                     </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="label" destination="KeJ-PC-9nf" id="hJJ-gh-BZK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
