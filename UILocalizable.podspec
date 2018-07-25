@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UILocalizable'
-  s.version          = '0.2.0'
+  s.version          = '0.3.1'
   s.summary          = 'A simple way to localize iOS apps'
 
   s.description      = <<-DESC
